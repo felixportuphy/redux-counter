@@ -1,0 +1,60 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:'poppins',sans-serif;
+}
+
+.App {
+  text-align: center;
+ 
+}
+
+.nav-container{
+  background:orangered;
+  padding:20px;
+}
+
+.nav-container label{
+  margin-right:20px;
+  font-size:24px;
+  color:#fff;
+}
+
+.nav-container input{
+  padding:10px;
+  width:100px;
+  outline:none;
+  text-align:center;
+  border:none;
+  border-radius:5px;
+}
+
+.controls{
+    padding:20px;
+    height:80vh;
+}
+
+.btn-controls{
+    background:rgb(88, 85, 84);
+    font-size:18px;
+    font-weight:600;
+    color:#fff;
+    padding:10px;
+    margin-top:50px;
+    margin-left:20px;
+    border:1px solid black;
+    border-radius:3px;
+}
+
+.footer{
+ 
+  padding:20px 0;
+}
+
+.footer p{
+  font-size:18px;
+}
