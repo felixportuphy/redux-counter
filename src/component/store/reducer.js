@@ -5,12 +5,12 @@
  const reducer = (state=oldState,action) => {
     if(action.type === "ADD"){
         return{
-            counter:state.counter +1
+            counter:state.counter + action.value
         }
     }
     if(action.type ==="SUB"){
         return{
-            counter:state.counter -1
+            counter:state.counter - action.value
         }
     }
    

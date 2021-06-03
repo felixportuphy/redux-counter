@@ -10,8 +10,8 @@ const counter = (props) => {
                 <label>Counter</label><input value={props.output}/>
             </nav>
             <div className="controls">
-                <button className="btn-controls" onClick={()=>props.onAdd()}>Add</button>
-                <button className="btn-controls" onClick={()=>props.onSub()}>Subtract</button>
+                <button className="btn-controls" onClick={()=>props.onAdd()}>Add 5</button>
+                <button className="btn-controls" onClick={()=>props.onSub()}>Subtract 5</button>
             </div><hr/>
             <div className="footer">
                 <p>Powered By Quarsh </p>
@@ -28,8 +28,8 @@ const mapStateToProps = state =>{
 
 const mapDispatchToProps = dispatch =>{
    return{
-    onAdd:()=>dispatch({type:"ADD"}),
-    onSub:()=>dispatch({type:"SUB"})
+    onAdd:()=>dispatch({type:"ADD",value:5}),
+    onSub:()=>dispatch({type:"SUB",value:5})
    };
 };
 
